@@ -89,7 +89,7 @@ def start(input_file, app_dir, output="data"):
 
 def main():
     # how to use PRSA
-    parser = argparse.ArgumentParser(description="Android app potential risk scan tools",
+    parser = argparse.ArgumentParser(description="Android app exposed components scan tools",
                     usage="\n\npython appsanner.py -d apk_dir [-i input_apk_name_file(can be null)] [-o out_path]")
     parser.add_argument('-i','--input', help='input apk name file,it can be null', required=False)
     parser.add_argument('-d','--dir', help='<Required> apk directory', required=True)
